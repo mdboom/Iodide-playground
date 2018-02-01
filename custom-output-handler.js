@@ -4,6 +4,7 @@ const GeoLocationOutputHandler = {
     },
 
     render: function(value) {
+        alert("FOO")
         '<img src="https://maps.googleapis.com/maps/api/staticmap?center=' + value.lat + ',' + value.lon + '&zoom=17&size=600x300&maptype=roadmap"/>'
     }
 }

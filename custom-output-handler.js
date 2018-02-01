@@ -1,6 +1,6 @@
 const GeoLocationOutputHandler = {
     shouldHandle: function(value) {
-        return (typeof value === 'object' && 'lat' in value && 'lon' in value
+        return (typeof value === 'object') && 'lat' in value && 'lon' in value
     },
 
     render: function(value) {

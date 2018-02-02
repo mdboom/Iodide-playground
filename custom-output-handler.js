@@ -8,4 +8,6 @@ const GeoLocationOutputHandler = {
     }
 }
 
-window.nb_api.addOutputHandler(GeoLocationOutputHandler);
+function iodideSetup(api) {
+    api.addOutputHandler(GeoLocationOutputHandler);
+}
